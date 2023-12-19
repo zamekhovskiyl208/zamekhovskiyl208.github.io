@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+	  color:black;
+
+    }
+
+    @media (min-width: 400px) {
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    @media (min-width: 900px) {
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+
+
+
+
+p1 {
+	  font-family: "Comic Sans MS", fantasy, Luminari;
+	   font-size: 140%;
+	   color: blue;
+           }
+p2 {
+	  font-family: "Comic Sans MS", fantasy, Luminari;
+	   font-size: 130%;
+	   }
+p3 {
+	  font-family: "Comic Sans MS",Roman;
+	   font-size: 130%;
+	   }
+p4 {
+	  font-family: Arial, "Comic Sans MS",Roman;
+	   font-size: 150%;
+color: navy
+	   }
+
+p5 {
+	  font-family: Roman, "Comic Sans MS", Arial;
+	   font-size: 150%;
+           color: green
+	   }
+p6 {
+	  font-family: "Comic Sans MS", Roman;
+	   font-size: 125%;
+           color: blue
+	   }
+p7 {
+	  font-family: Arial, "Comic Sans MS", Roman;
+	   font-size: 130%;
+           color: red
+	   }
+</style>
+</head>
+<body>
