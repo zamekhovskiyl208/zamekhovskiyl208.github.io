@@ -21,11 +21,24 @@ td:nth-child(even), th:nth-child(even) {
 </style>
 </head>
 <body style="background-color:purple;">
+<script>
+  let result = false;
+
+  while (!result) {
+    const UserName = prompt("Введи своє ім'я");
+   if (!UserName || !UserName.trim() ) {
+     result = false;
+   } else {
+     alert( "Вітаю, " + UserName + ", на моїй сторінці!" );
+     result = true;
+   }
+  }
+ </script>
 <header>
-<h1>Інженерія програмного забезпечення</h1>
+<h1>Інженерія</h1>
 </header>
 </marquee>
-<p1> це застосування системного, вимірюваного підходу до розробки, використання та супроводу програмного забезпечення, та дослідження цих підходів, тобто застосування принципів інженерії до програмного забезпечення.</p1>
+<p1>Інженерія програмного забезпечення, це застосування системного, вимірюваного підходу до розробки, використання та супроводу програмного забезпечення, та дослідження цих підходів, тобто застосування принципів інженерії до програмного забезпечення.</p1>
 <marquee> <p2 style="color:white;">Інженерія - це круто </marquee>
 <center><img src="1.jpg" style="width:1000px;height:500px; border:2px solid DodgerBlue" usemap="#workmap"> </center>
 <map name="workmap">
